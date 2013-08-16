@@ -1,10 +1,7 @@
 // Allows control of the mouse cursor on the connected computer, via a
 // TrackPoint.
 
-// Sensitivity can be controlled with a potentiometer.
-
-// An RGB LED shows loop speed. It is controlled by a decade counter (mostly
-// for the author's practise).
+// Dependency: <https://github.com/feklee/arduino-trackpoint>
 
 // Copyright (C) 2013 Felix E. Klee <felix.klee@inka.de>
 //

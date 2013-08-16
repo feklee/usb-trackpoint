@@ -32,6 +32,12 @@ For cycling the RGB LED, I use a decade counter. This is primarily for
 practise: I have never worked with a decade counter before.
 
 
+Arduino code
+============
+
+See comments at top of file.
+
+
 Trackpoint PCB
 ==============
 
@@ -91,3 +97,4 @@ SOFTWARE.
 
 [1]: 2013-08-16+02_TrackPoint_PCB.jpg
 [2]: http://en.wikipedia.org/wiki/EAGLE
+[3]: https://github.com/feklee/arduino-trackpoint
