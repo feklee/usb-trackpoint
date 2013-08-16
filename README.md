@@ -95,6 +95,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-[1]: 2013-08-16+02_TrackPoint_PCB.jpg
+[1]: images/2013-08-16+02_TrackPoint_PCB.jpg
 [2]: http://en.wikipedia.org/wiki/EAGLE
 [3]: https://github.com/feklee/arduino-trackpoint
