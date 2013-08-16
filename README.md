@@ -37,7 +37,7 @@ practise: I have never worked with a decade counter before.
 Arduino code
 ============
 
-See comments at top of file.
+See comments at top of `.ino` file.
 
 
 Trackpoint PCB
