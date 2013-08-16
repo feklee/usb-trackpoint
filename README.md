@@ -18,6 +18,8 @@ Features:
 Circuit
 =======
 
+![Photos of circuit, front and back][4]
+
 For the schematic, see the included [EAGLE][2] project.
 
 The PS/2 connection is done with a detachable cable. This allows:
@@ -46,8 +48,6 @@ I recycled some components:
 
 For cycling the RGB LED, a decade counter is used, partly as an exercise for
 the author.
-
-![Photos of circuit, front and back][4]
 
 
 Arduino code
