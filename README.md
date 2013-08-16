@@ -28,8 +28,10 @@ The PS/2 connection is done with a detachable cable. This allows:
 
 As mouse buttons I used switches from an old Logitech mouse.
 
-For cycling the RGB LED, I use a decade counter. This is primarily for
+For cycling the RGB LED, a decade counter is used. This is primarily for
 practise: I have never worked with a decade counter before.
+
+![Photos of circuit, front and back][4]
 
 
 Arduino code
@@ -95,6 +97,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-[1]: images/2013-08-16+02_TrackPoint_PCB.jpg
+[1]: images/2013-08-16+02_TrackPoint_annotated.png
 [2]: http://en.wikipedia.org/wiki/EAGLE
 [3]: https://github.com/feklee/arduino-trackpoint
+[4]: images/2013-08-16+02_circuit.jpg
