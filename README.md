@@ -4,9 +4,21 @@ Introduction
 Electronics Arduino project, to connect an IBM TrackPoint as an external
 pointing device via USB.
 
+Features:
+
+  * TrackPoint fully works, incl. buttons.
+
+  * Adjustable sensitivity with Potentiometer.
+
+  * Middle button scrolling.
+
+  * An RGB LED cycles, showing how the program loops.
+
 
 Circuit
 =======
+
+For the schematic, see the included [EAGLE][2] project.
 
 The PS/2 connection is done with a detachable cable. This allows:
 
@@ -14,15 +26,22 @@ The PS/2 connection is done with a detachable cable. This allows:
   
   * connecting the TrackPoint to a PS/2 port (didn't get that to work).
 
-For the schematic, see the included [EAGLE][2] project.
+As mouse buttons I used switches from an old Logitech mouse.
+
+For cycling the RGB LED, I use a decade counter. This is primarily for
+practise: I have never worked with a decade counter before.
 
 
+Arduino code
+============
+
+See included Arduino project.
 
 
 Trackpoint PCB
 ==============
 
-I broke off the board from the keyboard of a iSeries 1200 (1161-267), my first
+I broke off the board from the keyboard of an iSeries 1200 (1161-267), my first
 ThinkPad, bought in 2000.
 
 To figure out the pinout of the TrackPoint PCB, the key steps were:
