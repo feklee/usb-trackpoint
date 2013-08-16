@@ -1,7 +1,9 @@
 // Allows control of the mouse cursor on the connected computer, via a
 // TrackPoint.
-
-// Dependency: <https://github.com/feklee/arduino-trackpoint>
+//
+// Depends on arduino-trackpoint version 0.1.0:
+//
+// <https://github.com/feklee/arduino-trackpoint>
 
 // Copyright (C) 2013 Felix E. Klee <felix.klee@inka.de>
 //
@@ -25,14 +27,14 @@
 
 #include "Trackpoint.h"
 
-const char potiSliderAnalogPin = 0;
+const byte potiSliderAnalogPin = 0;
 
-const char decadeCounterClrPin = 4; //4017 CLR pin (reset)
-const char decadeCounterClkPin = 5; //4017 CLK pin
-char decadeCounterPos;
+const byte decadeCounterClrPin = 4; //4017 CLR pin (reset)
+const byte decadeCounterClkPin = 5; //4017 CLK pin
+byte decadeCounterPos;
 
 Trackpoint trackpoint(8, // CLK
-                      9, // +DATA
+                      9, // DATA
                       12); // RESET
 
 void clrDecadeCounter() {
@@ -70,8 +72,6 @@ void setup() {
   clrDecadeCounter();
 
   setupTrackpoint();
-
-  Serial.begin(9600);
 }
 
 // between 0 and 1
@@ -80,7 +80,7 @@ float potiPos() {
 }
 
 void sendButtonState(byte state) {
-  static const char hidStates[] = {MOUSE_LEFT, MOUSE_RIGHT};
+  static const byte hidStates[] = {MOUSE_LEFT, MOUSE_RIGHT};
 
   for (byte i = 0; i < sizeof(hidStates); i++) {
     byte hidState = hidStates[i];
