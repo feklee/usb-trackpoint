@@ -1,0 +1,24 @@
+[Eagle]
+Version="06 05 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Programme/EAGLE-6.5.0/lbr/con-yamaichi.lbr"
+UsedLibrary="C:/Dokumente und Einstellungen/Felix/Eigene Dateien/My Dropbox/My Data/hardware/electronics/SL-20V/library.lbr"
+UsedLibrary="C:/Dokumente und Einstellungen/Felix/Eigene Dateien/My Dropbox/My Data/hardware/computers/ThinkPads/1161-267/TrackPoint/library.lbr"
+UsedLibrary="C:/Dokumente und Einstellungen/Felix/Eigene Dateien/My Dropbox/My Data/hardware/electronics/Omron_D2F/library.lbr"
+UsedLibrary="C:/Programme/EAGLE-6.5.0/lbr/element14/ST Microelctronics_By_element14_Batch_1.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="208 171 807 570"
+State=1
+Number=0
+
+[Desktop]
+Screen="1024 768"
+Window="Win_1"
