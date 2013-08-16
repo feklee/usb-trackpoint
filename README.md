@@ -26,7 +26,8 @@ The PS/2 connection is done with a detachable cable. This allows:
   
   * connecting the TrackPoint to a PS/2 port (didn't get that to work).
 
-As mouse buttons I used switches from an old Logitech mouse.
+As mouse buttons I used switches from an old Logitech mouse. The PS/2 plug I
+cut off an old and broken Cherry keyboard.
 
 For cycling the RGB LED, a decade counter is used. This is primarily for
 practise: I have never worked with a decade counter before.
