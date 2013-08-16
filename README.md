@@ -8,7 +8,7 @@ Features:
 
   * TrackPoint fully works, incl. buttons.
 
-  * Adjustable sensitivity with Potentiometer.
+  * Adjustable sensitivity with potentiometer.
 
   * Middle button scrolling.
 
