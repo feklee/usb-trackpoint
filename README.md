@@ -26,11 +26,26 @@ The PS/2 connection is done with a detachable cable. This allows:
   
   * connecting the TrackPoint to a PS/2 port (didn't get that to work).
 
-As mouse buttons I used switches from an old Logitech mouse. The PS/2 plug I
-cut off an old and broken Cherry keyboard.
+I recycled some components:
 
-For cycling the RGB LED, a decade counter is used. This is primarily for
-practise: I have never worked with a decade counter before.
+  * TrackPoint board: Broken off from the keyboard of an iSeries 1200
+    (1161-267), my first ThinkPad (bought in 2000).
+
+  * Button switches: Taken from an old Logitech mouse.
+  
+  * PS/2 cable: Cut off an old and broken Cherry keyboard.
+  
+  * Back metal plate: From the keyboard that provided the TrackPoint board.
+  
+  * Front metal plate: Cut from a plate found inside a ThinkPad X41, then
+    drilled.
+  
+  * M2 screws: From some ThinkPad.
+  
+  * M2 nuts: Insert nuts found in ThinkPad X41 plastic parts.
+
+For cycling the RGB LED, a decade counter is used, partly as an exercise for
+the author.
 
 ![Photos of circuit, front and back][4]
 
@@ -43,9 +58,6 @@ See comments at top of `.ino` file.
 
 Trackpoint PCB
 ==============
-
-I broke off the board from the keyboard of an iSeries 1200 (1161-267), my first
-ThinkPad, bought in 2000.
 
 To figure out the pinout of the TrackPoint PCB, the key steps were:
 
