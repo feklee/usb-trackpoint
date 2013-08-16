@@ -28,7 +28,7 @@ The PS/2 connection is done with a detachable cable. This allows:
   
   * connecting the TrackPoint to a PS/2 port (didn't get that to work).
 
-I recycled some components:
+Some components were recycled:
 
   * TrackPoint board: Broken off from the keyboard of an iSeries 1200
     (1161-267), my first ThinkPad (bought in 2000).
