@@ -32,12 +32,6 @@ For cycling the RGB LED, I use a decade counter. This is primarily for
 practise: I have never worked with a decade counter before.
 
 
-Arduino code
-============
-
-See included Arduino project.
-
-
 Trackpoint PCB
 ==============
 
