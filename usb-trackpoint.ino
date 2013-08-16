@@ -25,10 +25,6 @@
 
 #include "Trackpoint.h"
 
-const char tpClkPin = 8; // tp = TrackPoint
-const char tpDataPin = 9;
-const char tpResetPin = 12;
-
 const char potiSliderAnalogPin = 0;
 
 const char decadeCounterClrPin = 4; //4017 CLR pin (reset)
@@ -57,29 +53,6 @@ void cycleRgbLed() {
   } else {
     incrementDecadeCounter();
   }
-}
-
-// errors are ignored
-void setTpRamLocation(unsigned char location, unsigned char value) {
-  trackpoint.write(0xe2);
-  trackpoint.read(); // ACK
-  trackpoint.write(0x81);
-  trackpoint.read(); // ACK
-  trackpoint.write(location);
-  trackpoint.read(); // ACK
-  trackpoint.write(value);
-  trackpoint.read(); // ACK
-}
-
-// undefined in case of error
-unsigned char tpRamLocation(unsigned char location) {
-  trackpoint.write(0xe2);
-  trackpoint.read(); // ACK
-  trackpoint.write(0x80);
-  trackpoint.read(); // ACK
-  trackpoint.write(location);
-  trackpoint.read(); // ACK
-  return trackpoint.read();
 }
 
 void setupTrackpoint() {
