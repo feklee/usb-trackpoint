@@ -79,7 +79,12 @@ To figure out the pinout of the TrackPoint PCB, the key steps were:
     big enough to hold the FFC plus 0.3 mm copper wire.
 
   * With the TrackPoint board connected to an Arduino, I figured out by trial
-    and error which wire is CLK, which one is DATA, and which one is RESET.
+    and error:
+    
+      + Which wire is CLK, which one is DATA, and which one is RESET?
+      
+      + Which of the button wires is for LEFT, which one for RIGHT, which one
+        for MIDDLE?
 
 TrackPoint PCB soldered to board with 0.3 mm enameled copper wire:
 
