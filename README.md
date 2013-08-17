@@ -26,7 +26,8 @@ The PS/2 connection is done with a detachable cable. This allows:
 
   * testing the Arduino code with an external PS/2 mouse,
   
-  * connecting the TrackPoint to a PS/2 port (didn't get that to work).
+  * using the TrackPoint as a PS/2 mouse directly on a computer (didn't get
+    that to work).
 
 Some components were recycled:
 
