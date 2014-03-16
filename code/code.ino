@@ -33,7 +33,7 @@ const byte decadeCounterClrPin = 4; //4017 CLR pin (reset)
 const byte decadeCounterClkPin = 5; //4017 CLK pin
 byte decadeCounterPos;
 
-Trackpoint trackpoint(7, // CLK
+Trackpoint trackpoint(3, // CLK
                       9, // DATA
                       12); // RESET
 
