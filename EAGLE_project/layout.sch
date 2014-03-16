@@ -4555,7 +4555,7 @@ DIN female/male, etc.&lt;p&gt;
 </bus>
 <bus name="+DATA,+CLK">
 <segment>
-<wire x1="-2.54" y1="48.26" x2="-2.54" y2="78.74" width="0.762" layer="92"/>
+<wire x1="-2.54" y1="45.72" x2="-2.54" y2="78.74" width="0.762" layer="92"/>
 <wire x1="-50.8" y1="78.74" x2="-2.54" y2="78.74" width="0.762" layer="92"/>
 </segment>
 </bus>
@@ -4748,16 +4748,16 @@ DIN female/male, etc.&lt;p&gt;
 </net>
 <net name="+CLK" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="8"/>
-<wire x1="-2.54" y1="48.26" x2="-12.7" y2="48.26" width="0.1524" layer="91"/>
-<label x="-12.7" y="48.26" size="1.016" layer="95"/>
-</segment>
-<segment>
 <wire x1="-33.02" y1="91.44" x2="-22.86" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="PS/2" gate="G$1" pin="5"/>
 <wire x1="-33.02" y1="91.44" x2="-33.02" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="78.74" x2="-22.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="-22.86" y="81.28" size="1.016" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="7"/>
+<wire x1="-12.7" y1="45.72" x2="-2.54" y2="45.72" width="0.1524" layer="91"/>
+<label x="-12.7" y="45.72" size="1.016" layer="95"/>
 </segment>
 </net>
 <net name="+DATA" class="0">
